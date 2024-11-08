@@ -1,15 +1,11 @@
 // pages/index.tsx
+import Image from 'next/image';
+
 export default function Home() {
   return (
-<<<<<<< HEAD
-    <div className= "bg-customeMoonchange">
-      <nav className="flex items-center justify-between p-4 bg-customMooncolor text-White">
-       <img src="/Logo.jpeg" alt="Logo" className="h-20" />
-=======
-    <div>
-      <nav className="flex items-center justify-between p-4 bg-green-600 text-black">
-       <img src="/logo.png" alt="Logo" className="h-10" />
->>>>>>> e9347d2661f0a8da12cf01327d02fc9c9f82a608
+    <div className="bg-customMoonchange min-h-screen">
+      <nav className="flex items-center justify-between p-4 bg-customMooncolor text-white">
+        <Image src="/moon.png" alt="Logo" width={80} height={80} />
         <ul className="flex space-x-8">
           <li><a href="/home">Home</a></li>
           <li><a href="/about">About</a></li>
@@ -18,17 +14,16 @@ export default function Home() {
           <li><a href="/blog">Blog</a></li>
         </ul>
       </nav>
-<<<<<<< HEAD
-      <main className="p-8 ">
-        <h1 className="text-center font-bold ">THIS WEBSITE IS CREATED FOR MY ASSIGNMET!</h1>
-          <div className=" flex-item center justify-center h-screen">
-            <p className="p-8 text-left font-bold text-center text-2xl"> FINAL TOUCHES ON COLORS BY MADINATHEBEST</p></div>
-=======
       <main className="p-8">
-        <h1 className="text-center font-bold ">THIS WEBSITE IS CREATED FOR MY ASSIGNMET!</h1>
-          <div className=" flex-item center justify-center h-screen">
-            <p className="p-8 text-left font-bold text-center text-2xl"> I hope you liked this simple project i have worked on</p></div>
->>>>>>> e9347d2661f0a8da12cf01327d02fc9c9f82a608
+        <h1 className="text-center font-bold">THIS WEBSITE IS CREATED FOR MY ASSIGNMENT!</h1>
+        <div className="flex items-center justify-center h-screen">
+          <p className="p-8 text-left font-bold text-center text-2xl">
+            FINAL TOUCHES ON COLORS BY MADINATHEBEST
+          </p>
+          <p className="p-8 text-left font-bold text-center text-2xl">
+            I hope you liked this simple project I have worked on
+          </p>
+        </div>
       </main>
     </div>
   );
