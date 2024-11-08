@@ -9,8 +9,13 @@ export default {
   theme: {
     extend: {
       colors: {
+<<<<<<< HEAD
         customMooncolor: `#2E3944`,
         customeMoonchange: `#124E66`,
+=======
+        background: "var(--background)",
+        foreground: "var(--foreground)",
+>>>>>>> e9347d2661f0a8da12cf01327d02fc9c9f82a608
       },
     },
   },
